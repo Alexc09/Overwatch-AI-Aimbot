@@ -4,6 +4,11 @@ Object Detection with YOLO/MOBILENET architecture
 
 ~ Coming Soon
 
+## Required Packages
+1. Tensorflow Object Detection API: https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
+2. LabelImg Tool: https://github.com/tzutalin/labelImg
+3. Protocol Buffers: https://github.com/protocolbuffers/protobuf/releases
+
 ## preprocessImg.py
 Used to rename image filenames in ascending order 
 (E.g 1.png, 2.png, etc.)
