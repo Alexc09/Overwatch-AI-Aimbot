@@ -45,7 +45,9 @@ python train.py [-L --labels] [-E --epochs] [-N --name] [-T --split] [-s --train
 
 >--trainSize: (float) Training size (0-1, defaults to 1)
 
-E.g: `python train.py -L "{'name': 'head', 'id': 1 }***{'name': 'body', 'id': 2 }" -E 50 -N "overwatch_mobnet" -T yes -S 0.7`
+E.g: 
+`python train.py -L "{'name': 'head', 'id': 1 }***{'name': 'body', 'id': 2 }" -E 50 -N "overwatch_mobnet" -T yes -S 0.7`
+
 Internally, this will create:
 - label=[{'name': 'head', 'id': 1 }, {'name': 'body', 'id': 2 }]
 - Run for 50 epochs
