@@ -29,8 +29,8 @@ Will automatically
 python train.py [-L --labels] [-E --epochs] [-N --name] [-T --split] [-s --trainSize]
 ```
 
->--labels: (str) Labels in json format. Must follow {'name': ~, 'id': ~} convention, where 'name' is the label given in labelImg.py tool.  
-> Separate labels using '***' triple asterix (E.g "{~}***{~}" )
+>--labels: (str) Labels in json format. Must follow {'name': ..., 'id': ...} convention, where 'name' is the label given in labelImg.py tool.  
+> Separate labels using '***' triple asterix (E.g "{...}***{...}" )
 
 >--epochs: (int) Number of training epochs to run
 
