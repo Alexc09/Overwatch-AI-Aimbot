@@ -1,8 +1,6 @@
 # Overwatch-AI-Aimbot
 
-```
 ![alt text](Assets/front.jpg)
-```
 
 Object Detection with YOLO/MOBILENET architecture
 
