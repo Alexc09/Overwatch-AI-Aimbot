@@ -15,14 +15,54 @@ For more pretrained models, download at https://github.com/tensorflow/models/blo
 
 ## Required Packages
 1. Tensorflow Object Detection API: https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
-
 2. LabelImg Tool: https://github.com/tzutalin/labelImg
-
 3. Protocol Buffers: https://github.com/protocolbuffers/protobuf/releases
-
 4. Pretrained Models: https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
 
-   
+
+
+## File Structure
+
+```
+─ Overwatch-AI-Aimbot/
+    ├─ Workspace/
+      ├─ annotations/
+      ├─ images/
+      	├─ screenshots/
+      	├─ train/
+      	├─ test/
+      ├─ my_models/
+      ├─ pre-trained-models/
+    ├─ processImg.py
+    ├─ unzip.py
+    ├─ testDetection.py
+    ├─ train.py
+    ├─ generate_tfrecord.py
+    
+─ RealTimeObjectDetection/
+    ├─ Tensorflow
+      ├─ models/
+      	├─ research/
+      		├─ object_detection/
+      ├─ scripts/
+      	├─ generate_tfrecord.py
+    ├─ labelImg/
+      ├─ labelImg.py
+
+```
+
+**Overwatch-AI-Aimbot**: 
+
+- Clone from this repository
+- Place all images in Workspace/images/
+- Place all pretrained-models in Workspace/pre-trained-models
+
+**RealTimeObjectDetection**: 
+
+- Create /RealTimeObjectDetection folder in same directory as /Overwatch-AI-Aimbot folder
+- /Tensorflow folder contains the "models" repository, which is cloned via https://github.com/tensorflow/models
+- /Tensorflow folder contains a "/scripts" folder. Create this folder and paste the `generate_tfrecord.py` file here
+- /RealTimeObjectDetection contains the "labelImg" repository, which is cloned via https://github.com/tzutalin/labelImg
 
 ## preprocessImg.py
 Used to rename image filenames in ascending order 
@@ -100,3 +140,10 @@ Used to test custom_model
 python testDetection.py
 ```
 
+
+
+## generate_tfrecord.py
+
+Used for creation of TFRecord format from image files
+
+Paste `generate_tfrecord.py` file to /RealTimeObjectDetection/Tensorflow/scripts
