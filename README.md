@@ -14,9 +14,14 @@ Unzip these .tar.gz files using `unzip.py`
 For more pretrained models, download at https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
 
 ## Required Packages
-1. Tensorflow Object Detection API: https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
+1. Tensorflow Object Detection API: 
+
+   https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
+
 2. LabelImg Tool: https://github.com/tzutalin/labelImg
+
 3. Protocol Buffers: https://github.com/protocolbuffers/protobuf/releases
+
 4. Pretrained Models: https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
 
 
