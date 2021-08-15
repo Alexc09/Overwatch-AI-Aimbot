@@ -1,13 +1,19 @@
 # Overwatch-AI-Aimbot
 
+```
+![alt text](Assets/front.jpg)
+```
+
 Object Detection with YOLO/MOBILENET architecture
 
-2 Pretrained Models are included:
+2 Pretrained Models are included under Workspace/pre-trained-models:
 
 1. SSD_MobileNet (320x320)
 2. SSD_MobileNet (640x640)
 
-More can be downloaded at https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
+Unzip these .tar.gz files using `unzip.py`
+
+For more pretrained models, download at https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md
 
 ## Required Packages
 1. Tensorflow Object Detection API: https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
