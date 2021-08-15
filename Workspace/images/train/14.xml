@@ -1,0 +1,26 @@
+<annotation>
+	<folder>screenshots</folder>
+	<filename>14.png</filename>
+	<path>C:\Users\alexc\PycharmProjects\ObjectDetection\Overwatch\Workspace\images\screenshots\14.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>578</xmin>
+			<ymin>211</ymin>
+			<xmax>776</xmax>
+			<ymax>330</ymax>
+		</bndbox>
+	</object>
+</annotation>

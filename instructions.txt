@@ -1,0 +1,4 @@
+Place images + annotations in Workspace/images/screenshots
+
+Run:
+python processImg.py Workspace/images/screenshots
